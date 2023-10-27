@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortune Cookie</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Importing DM Sans regular and bold (400, 700), Family Dancing regular (400) and Montserrat bold (700) fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Dancing+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <main>
+    <div class="screen1">
+      <h1>What's your luck today?</h1>
+      <h2>Open the cookie and find out!</h2>
+      <img src="./assets/fortune-cookie.png" alt="A fortune cookie" id="btnTry">
+    </div>
+
+    <div class="screen2 hide">
+      <h1>Here's your luck today:</h1>
+      <div id="lucky-text">
+        <p></p>
+      </div>
+      <img src="./assets/opened-cookie.png" alt="An opened fortune cookie">
+      <button id="btnReset">Open another cookie</button>
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
